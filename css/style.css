@@ -51,6 +51,11 @@ p {
     background-color: #000;
 }
 
+.text-center {
+    text-align: center;
+    margin: 0 auto;
+}
+
 
 /* Header */
 
@@ -180,4 +185,24 @@ p {
 
 .call p {
     margin-bottom: 30px;
+}
+
+/*  Portifolio */
+
+.portifolio {
+    background-color: #000;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.portifolio h2 {
+    color: #fff;
+}
+
+.portifolio h2:after {
+    background-color: white;
+}
+
+.portifolio img {
+    margin-bottom: 15px;
 }
