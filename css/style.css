@@ -190,22 +190,29 @@ p {
 /*  Portifolio */
 
 .portifolio {
+    width: 100%;
     background-color: #000;
     padding: 50px 0;
+}
+
+.portifolio .subtitulos {
     color: #fff;
 }
 
-.portifolio h2 {
-    color: #fff;
-}
-
-.portifolio h2:after {
+.portifolio .subtitulos:after {
     background-color: white;
 }
 
-.portifolio img {
-    margin-bottom: 15px;
+.portifolio-lista img {
+    margin-bottom: 20px;
+}
+
+.portifolio .call p {
+    color: white;
 }
 
 /* Qualidade */
 
+.qualidade {
+    padding: 50px 0;
+}
