@@ -272,3 +272,75 @@ img {
 .qualidade .call {
     margin-top: 30px;
 }
+
+/*  Footer */
+
+.quebra {
+    width: 100%;
+    height: 220px;
+    background: url("../img/bg-footer.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.quebra .quote-externo {
+    max-width: 400px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #000;
+    color: white;
+    padding: 30px 0;
+}
+
+.footer h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FEC63E;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer h3:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 60px;
+    background-color: #FEC63E;
+    margin: 15px 0;
+}
+
+.historia {
+    padding-right: 40px;
+}
+
+.contato {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.redes-amigas {
+
+}
+
+.redes-amigas ul li {
+    border: 2px solid #FEC63E;
+    padding: 8px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.redes-amigas ul li:first-child {
+    margin-left: 0px;
+}
+
+.copy {
+    background-color: #FEC63E;
+    padding: 20px 0;
+}
+
+
+
