@@ -219,7 +219,7 @@ img {
 
 .qualidade {
     padding: 50px 0;
-    text-align: center;
+    margin-bottom: 30px;
 }
 
 .qualidade:after {
@@ -230,25 +230,20 @@ img {
     background: url("../img/linhas.svg") no-repeat center;
     position: absolute;
     top: 220px;
-    right: 162px;
-    z-index: -1;
+    left: 164px;
 }
 
 .qualidade img {
     margin: 0 auto;
 }
 
-.qualidade-container {
-    margin-bottom: 30px;
-}
-
-
 .qualidade-lista {
-    margin: 60px 0 100px 0;
+    margin-top: 50px;
 }
 
 .qualidade-lista li {
-    padding: 0 20px;
+    text-align: center;
+    margin-bottom:40px;
 }
 
 .qualidade-lista li h3 {
@@ -267,10 +262,6 @@ img {
     height: 3px;
     width: 60px;
     background-color: #000
-}
-
-.qualidade .call {
-    margin-top: 30px;
 }
 
 /*  Footer */
@@ -316,7 +307,7 @@ img {
     padding-right: 40px;
 }
 
-.contato {
+.contato ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     line-height: 20px;
