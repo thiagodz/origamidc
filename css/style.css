@@ -61,6 +61,33 @@ img {
 }
 
 
+/* Introducao interna */
+
+.introducao-interna {
+    width: 100%;
+    margin-top: 102px;
+    height: 160px;
+    background-size: cover !important;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.introducao-interna h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introducao-interna h1:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 60px;
+    background-color: #fff;
+    margin: 16px auto 10px auto;
+}
+
 /* Header */
 
 .header {
