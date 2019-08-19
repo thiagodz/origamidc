@@ -67,7 +67,6 @@ img {
     width: 100%;
     margin-top: 102px;
     height: 160px;
-    background-size: cover !important;
     text-align: center;
     color: #fff;
     padding-top: 30px;
@@ -122,7 +121,7 @@ img {
 
 .header-menu ul li a:hover {
     color: #fff;
-} 
+}
 
 /* Intro */
 
@@ -359,6 +358,3 @@ img {
     background-color: #FEC63E;
     padding: 20px 0;
 }
-
-
-
