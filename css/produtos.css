@@ -70,3 +70,11 @@
 .produto-info ul li:nth-child(3), .produto-info ul li:nth-child(1) {
   margin-right: 2px;
 }
+
+/* Formulario */
+
+.orcamento {
+  background-color: #000;
+  width: 100%;
+  height: 600px;
+}
