@@ -75,15 +75,20 @@
   line-height: 30px;
 }
 
-.contato-dados span:nth-child(3) {
+.contato-dados span:nth-of-type(even) {
   margin-bottom: 30px;
 }
 
 .contato-amigas ul li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 0px !important; 
+}
+
+.contato-amigas ul li a {
   border: 2px solid #FEC63E;
   padding: 8px;
-  display: inline-block;
-  margin-left: 10px;
+  display: block;
 }
 
 .contato-dados ul li {
@@ -94,4 +99,8 @@
 
 .contato-dados p {
   margin: 10px 0;
+}
+
+.contato-mapa {
+  margin-bottom: 60px;
 }
