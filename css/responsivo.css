@@ -1,5 +1,19 @@
 @media only screen and (min-width: 788px) and (max-width: 979px) {
 
+	.qualidade:after {
+		left: 78px;
+	}
+	
+	.redes-amigas ul li a {
+		border: 3px solid #FEC63E;
+		display: block;
+		padding: 5px;
+	}
+
+	.redes-amigas ul li a img {
+		width: 24px;
+		height: 24px;
+	}
 }
 
 @media only screen and (max-width: 787px) {
@@ -34,5 +48,31 @@
 	.introducao {
 		margin-top: 0;
 		padding-top: 20px;
+	}
+
+	.qualidade:after {
+		display: none;
+	}
+
+	.introducao h1  {
+		font-size: 38px;
+		line-height: 40px;
+	}
+
+	.introducao {
+		margin-bottom: 0;
+		padding-top: 40px;
+	}
+
+	.introducao {
+		padding: 60px 0 60px 0;
+	}
+
+	.introducao-interna {
+		margin-top: 0;
+	}
+
+	.missao-sobre p {
+		padding-right: 4px;
 	}
 }
