@@ -14,7 +14,27 @@
 		width: 24px;
 		height: 24px;
 	}
+
+	.produtos-item h2 {
+		top: -150px;
+		margin-bottom: -56px;
+	}
+	.produto-icone {
+		padding: 41px 0;
+	}
+	.produto-info p {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 20px 30px;
+		height: 122px;
+	}
+
+	.produto-info ul li {
+		width: 181px;
+	}
 }
+
+/*  Tablets end */
 
 @media only screen and (max-width: 787px) {
 	.header {
@@ -75,4 +95,38 @@
 	.missao-sobre p {
 		padding-right: 4px;
 	}
+	.produtos-item h2 {
+		top: -100px;
+		margin-bottom: -68px;
+	}
+	.produto-icone {
+		padding: 41px 0;
+	}
+	.produto-info p {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 20px 30px;
+		height: auto;
+	}
+
+	.produto-info ul li {
+		width: 149px;
+		height: 49px;
+		font-size: 14px;
+		line-height: 20px;
+		padding-top: 14px;
+	}
+
+	.formulario {
+		padding-right: 0;
+	}
+
+	.orcamento-dados ul {
+		padding-right: 0;
+	}
+
+	.contato-formulario {
+		padding-right: 0;
+	}
+	
 }
