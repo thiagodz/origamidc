@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/responsivo.css">
 
+    <script>document.documentElement.classList.add("js");</script>
+
 </head>
 <body>
 
@@ -40,19 +42,32 @@
     </section>
     <!-- Intro "Portfolio" -->
 
-    <section class="container">
-      <blockquote class="quote-clientes">
-        <p>"No mundo atual, a continua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte."</p>
-        <cite>Barbara Moss</cite>
-      </blockquote>
+    <section class="container" data-slide="quote">
+        <blockquote class="quote-clientes">
+            <p>"No mundo atual, a continua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte."</p>
+            <cite>Barbara Moss</cite>
+        </blockquote>
+        <blockquote class="quote-clientes">
+            <p>"Sim cara, tu cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte."</p>
+            <cite>Thiago Rego</cite>
+        </blockquote>
+        <blockquote class="quote-clientes">
+            <p>"Cara, a continua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte."</p>
+            <cite>Bernardo Zewer</cite>
+        </blockquote>
     </section>
 
     <!-- Portifolio -->
     <section class="portifolio text-center">
-        <div class="container">
+        <div class="container" data-slide="portfolio">
             <ul class="portifolio-lista">
                 <li><img  class="grid-8" src="/img/portfolio/retro.jpg" alt=""></li>
                 <li><img  class="grid-8" src="/img/portfolio/passeio.jpg" alt=""></li>
+                <li><img class="grid-16" src="/img/portfolio/esporte.jpg" alt=""></li>
+            </ul>
+            <ul class="portifolio-lista">
+                <li><img  class="grid-8" src="/img/portfolio/passeio.jpg" alt=""></li>
+                <li><img  class="grid-8" src="/img/portfolio/retro.jpg" alt=""></li>
                 <li><img class="grid-16" src="/img/portfolio/esporte.jpg" alt=""></li>
             </ul>
         </div>
@@ -101,6 +116,10 @@
         </div>
     </footer>
     <!--  Footer  -->
+    
+    <script src="js/simple-slide.js"></script>
+    <script src="js/script.js"></script>
+    
 
 </body>
 </html>
