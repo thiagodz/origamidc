@@ -395,3 +395,13 @@ img {
 .js [data-slide-nav] button.active {
     background-color: #fec63e;
 }
+
+/*  Animacao */
+
+[data-anime] {
+    opacity: 0;
+}
+.anime {
+    opacity: 1;
+    transition: opacity 0.8s;
+}
