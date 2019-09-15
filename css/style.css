@@ -421,4 +421,18 @@ img {
     transform: translate3d(0, 0, 0);
     transition: opacity 0.8s, transform 800ms;
 }
+ /* Pega bots */
 
+.nao-aparece { 
+    visibility: hidden;
+    position: absolute;
+    height: 0;
+}
+
+#form-erro {
+    color: #f64540;
+}
+
+#form-sucesso {
+    color: green;
+}
