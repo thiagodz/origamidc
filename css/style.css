@@ -422,8 +422,20 @@ img {
     transition: opacity 0.8s, transform 800ms;
 }
  /* Pega bots */
+.nao-aparece {
+    visibility: hidden;
+    position: absolute;
+    height: 0;
+}
 
-.nao-aparece { 
+
+#nao-aparece { 
+    visibility: hidden;
+    position: absolute;
+    height: 0;
+}
+
+#nao-aparece-2 {
     visibility: hidden;
     position: absolute;
     height: 0;
